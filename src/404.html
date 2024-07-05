@@ -1,0 +1,23 @@
+---
+title: Page not found
+description: The requested page does not exist or was removed.
+permalink: 404.html
+layout: base
+eleventyExcludeFromCollections: true
+---
+
+<div class="flex-grow">
+  <main class="hero">
+    <div class="hero-content text-center">
+      <div>
+        <h1 class="text-5xl font-bold">{{ title }}</h1>
+        <code class="text-lg">Error 404</code>
+        <p class="text-xl">
+          The requested page either does not exist, was removed, or is temporarily unavailable.
+          Double-check that you have typed the URL correctly or contact the person who sent you here.
+        </p>
+        <a role="button" class="btn btn-primary" href="{{ '/' | url }}">Go back</a>
+      </div>
+    </div>
+  </main>
+</div>

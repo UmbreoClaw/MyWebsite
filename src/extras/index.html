@@ -1,0 +1,42 @@
+---
+title: Extras
+description: A bunch of cool things I've found online.
+layout: base
+---
+
+<div class="container sm:my-8">
+  <header>
+    <hgroup>
+      <h1>{{ title }}</h1>
+      <p class="text-lg">{{ description }}</p>
+    </hgroup>
+    <div class="divider"></div>
+  </header>
+  <main>
+    <div class="card lg:card-side bg-base-200 shadow">
+      <figure>
+        <img src="{{ '/assets/img/classicube.webp' | url }}" class="" alt=""/>
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">My Cube? Classic.</h2>
+        <p>You can never cube the classic too much. It also runs on a potato.</p>
+        <div class="card-actions justify-end">
+          <a role="button" class="btn btn-primary" href="https://www.classicube.net" target="_blank" rel="noreferrer nofollow">Visit</a>
+        </div>
+      </div>
+    </div>
+    <h2>Honorable Mentions</h2>
+    <div class="card lg:card-side bg-base-200 shadow">
+      <figure>
+        <img src="{{ '/assets/img/callisto.webp' | url }}" alt=""/>
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Callisto language</h2>
+        <p>Don't worry, we don't know how this works either.</p>
+        <div class="card-actions justify-end">
+          <a role="button" class="btn btn-primary" href="https://callisto.mesyeti.uk/" target="_blank" rel="noreferrer nofollow">Visit</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
