@@ -1,0 +1,32 @@
+{
+  "name": "umbreoclaw-website",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy && tailwindcss -i ./src/assets/stylesheets/main.css -o ./_site/assets/stylesheets/output.css --minify",
+    "dev:serve": "npx @11ty/eleventy --serve",
+    "dev:tailwind": "tailwindcss -i ./src/assets/stylesheets/main.css -o ./_site/assets/stylesheets/output.css --watch",
+    "start": "run-p dev:serve dev:tailwind"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmbreoClaw/umbreoclaw.github.io.git"
+  },
+  "author": "UmbreoClaw",
+  "bugs": {
+    "url": "https://github.com/UmbreoClaw/umbreoclaw.github.io/issues"
+  },
+  "homepage": "https://umbreoclaw.net",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@tailwindcss/typography": "^0.5.13",
+    "daisyui": "^4.12.10",
+    "npm-run-all2": "^6.2.0",
+    "tailwindcss": "^3.4.4",
+    "html-minifier-terser": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

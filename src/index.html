@@ -1,0 +1,34 @@
+---
+title: Home
+layout: homepage
+---
+
+<main>
+  <div class="hero min-h-screen bg-no-repeat" style="background-image: url(assets/img/banner.webp);">
+    <div class="hero-overlay bg-opacity-50"><!-- Dummy div for banner purposes, do not use --></div>
+    <div class="md:flex md:flex-row md:w-full hero-content text-neutral-content text-center">
+      <section class="shadow-xl backdrop-blur-3xl bg-black/20 rounded-box">
+        <div class="md:flex-none p-2 sm:p-6 max-w-none sm:max-w-md">
+          <div class="avatar">
+            <div class="w-32 rounded-full">
+              <img src="assets/img/avatar-transparent-cropped.webp" alt=""/>
+            </div>
+          </div>
+          <h1 class="text-4xl sm:text-5xl font-bold">{{ contact.name }}</h1>
+          <h2 class="mb-5 text-2xl">{{ contact.pronoun }}</h2>
+          <p class="mb-5 text-sm sm:text-base">
+            Hiya! I am {{ contact.name }}, a pretty unserious cat-thing on the internet. 
+            During my free time I like to play video games, tinker with Apple products, or horse around with my friends. 
+            If you'd like to hit me up, there are a few links down below to do so!
+          </p>
+          <div class="join">
+            {% for social in contact.social %}
+            <a role="button" class="btn btn-sm sm:btn join-item text-xs sm:text-base" href="{{ social.link }}" target="_blank" rel="noreferrer nofollow">{{ social.displayName }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      <div class="max-sm:hidden flex-1"><!-- Dummy div for flexbox purposes, do not use --></div>
+    </div>
+  </div>
+</main>

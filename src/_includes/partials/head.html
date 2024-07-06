@@ -1,0 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ '/assets/stylesheets/output.css' | url }}">
+    <title>{% unless page.url == '/' %}{{ title }} - {% endunless %}{{ siteMetadata.name }}</title>
+    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ siteMetadata.description }}{% endif %}">
+    <link rel="icon" sizes="32x32" href="{{ '/assets/img/icons/favicon.ico' | url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/icons/apple-touch-icon.png' | url }}">
+    <meta name="theme-color" content="{{ siteMetadata.theme-color }}"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="canonical" href="{{ siteMetadata.url }}{{ page.url }}">
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ siteMetadata.url }}{{ page.url }}"/>
+    <meta property="og:title" content="{% unless page.url == '/' %}{{ title }} - {% endunless %}{{ siteMetadata.name }}"/>
+    <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ siteMetadata.description }}{% endif %}"/>
+    <meta property="og:image" content="{{ '/assets/img/icons/apple-touch-icon.png' | url }}"/>
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="{{ '@' | append: contact.social[1].link | replace: 'https://x.com/', '' }}">
+</head>
