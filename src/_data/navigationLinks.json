@@ -10,5 +10,9 @@
     {
         "text": "Extras",
         "url": "/extras"
+    },
+    {
+        "text": "Commissions",
+        "url": "/commissions"
     }
 ]
