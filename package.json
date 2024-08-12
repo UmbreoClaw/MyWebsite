@@ -20,7 +20,7 @@
   "homepage": "https://umbreoclaw.net",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@tailwindcss/typography": "^0.5.13",
+    "@tailwindcss/typography": "^0.5.14",
     "daisyui": "^4.12.10",
     "npm-run-all2": "6.2.0",
     "tailwindcss": "^3.4.9",
