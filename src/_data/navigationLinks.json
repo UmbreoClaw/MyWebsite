@@ -14,5 +14,8 @@
     {
         "text": "Commissions",
         "url": "/commissions"
+    },
+    {   "text": "Allegations",
+        "url": "/allegations"
     }
 ]
