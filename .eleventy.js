@@ -1,6 +1,6 @@
-const htmlmin = require("html-minifier-terser");
+import htmlmin from "html-minifier-terser";
 
-module.exports = function(eleventyConfig) {
+export default async function(eleventyConfig) {
     eleventyConfig.setServerOptions({
       showAllHosts: true,
     });
