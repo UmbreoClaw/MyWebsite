@@ -16,10 +16,12 @@ node_modules/
 _site/
 .cache/
 
-
 # VS Code
 .vscode
 .vscode-test
+
+# JetBrains
+.idea/
 
 # Windows
 Thumbs.db
