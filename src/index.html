@@ -23,7 +23,9 @@ layout: homepage
           </p>
           <div class="join">
             {% for social in contact.social %}
-            <a role="button" class="btn btn-sm sm:btn join-item text-xs sm:text-base" href="{{ social.link }}" target="_blank" rel="noreferrer nofollow">{{ social.displayName }}</a>
+              {% if social.hidden != "true" %}
+              <a role="button" class="btn btn-sm sm:btn join-item text-xs sm:text-base" href="{{ social.link }}" target="_blank" rel="noreferrer nofollow">{{ social.displayName }}</a>
+              {% endif %}
             {% endfor %}
           </div>
         </div>

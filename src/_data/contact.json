@@ -7,8 +7,13 @@
             "link": "mailto:contact@umbreoclaw.net"
         },
         {
+            "displayName": "Bluesky",
+            "link": "https://bsky.app/profile/umbreoclaw.net"
+        },
+        {
             "displayName": "Twitter",
-            "link": "https://x.com/UmbreoClaw"
+            "link": "https://x.com/UmbreoClaw",
+            "hidden": "true"
         },
         {
             "displayName": "YouTube",
