@@ -22,7 +22,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@tailwindcss/typography": "^0.5.15",
-    "daisyui": "^4.12.22",
+    "daisyui": "^4.12.23",
     "html-minifier-terser": "^7.2.0",
     "npm-run-all2": "6.2.3",
     "tailwindcss": "^3.4.17"
