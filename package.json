@@ -22,11 +22,11 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@tailwindcss/typography": "^0.5.16",
-    "daisyui": "^5.0.0",
+    "daisyui": "^5.0.4",
     "html-minifier-terser": "^7.2.0",
-    "npm-run-all2": "6.2.3",
-    "tailwindcss": "^4.0.9",
-    "@tailwindcss/cli": "^4.0.9"
+    "npm-run-all2": "7.0.2",
+    "tailwindcss": "^4.0.14",
+    "@tailwindcss/cli": "^4.0.14"
   },
   "engines": {
     "node": ">=18"
