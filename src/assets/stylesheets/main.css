@@ -1,4 +1,11 @@
-::selection {
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@source "./src/**/*.{html,md,liquid,njk,11ty.js}";
+@plugin "daisyui" {
+    logs: false;
+}
+
+/* ::selection {
     color: white;
     background: #dc7216;
-}
+} */
