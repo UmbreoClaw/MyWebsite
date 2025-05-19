@@ -20,7 +20,7 @@
   },
   "homepage": "https://umbreoclaw.net",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.0",
     "@tailwindcss/typography": "^0.5.16",
     "daisyui": "^5.0.12",
     "html-minifier-terser": "^7.2.0",
