@@ -1,0 +1,10 @@
+{
+  "name": "umbreoclaw",
+  "compatibility_date": "2025-06-28",
+  "assets": {
+    "directory": "./_site/",
+    "not_found_handling": "404-page"
+  },
+  "preview_urls": true,
+  "workers_dev": true
+}
