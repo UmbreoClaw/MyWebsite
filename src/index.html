@@ -15,7 +15,7 @@ layout: homepage
             </div>
           </div>
           <h1 class="text-4xl sm:text-5xl font-bold">{{ contact.name }}</h1>
-          <h2 class="mb-5 text-2xl">{{ contact.pronoun }}</h2>
+          <h2 class="mb-5 text-2xl">{{ contact.pronouns }}</h2>
           <p class="mb-5 text-sm sm:text-base">
             Hiya! I am {{ contact.name }}, a pretty unserious cat-thing on the internet. 
             During my free time I like to play video games, tinker with Apple products, or horse around with my friends. 
@@ -24,7 +24,7 @@ layout: homepage
           <div class="join">
             {% for social in contact.social %}
               {% if social.hidden != "true" %}
-              <a role="button" class="btn btn-sm sm:btn join-item text-xs sm:text-base" href="{{ social.link }}" target="_blank" rel="noreferrer nofollow">{{ social.displayName }}</a>
+              <a role="button" class="btn btn-sm sm:btn join-item text-xs sm:text-base" href="{{ social.url }}" target="_blank" rel="noreferrer nofollow">{{ social.displayName }}</a>
               {% endif %}
             {% endfor %}
           </div>

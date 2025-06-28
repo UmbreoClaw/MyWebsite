@@ -1,0 +1,37 @@
+---
+title: Gallery
+layout: base
+description: A collection of artworks, featuring me and my friends, by talented artists.
+---
+
+<head>
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/masonry.css' | url }}">
+</head>
+
+<div class="container mt-0 sm:mt-8">
+  <header>
+    <hgroup>
+      <h1>{{ title }}</h1>
+      <p class="text-lg">{{ description }}</p>
+    </hgroup>
+    <div class="divider"></div>
+  </header>
+  <!-- TODO: make a popup box that shows the full image when clicking on one -->
+  <main>
+    <div class="not-prose masonry">
+      {% for entry in galleryListing %}
+      <div class="card bg-base-300 shadow-sm masonry-card">
+        <div class="card-body">
+          <h2 class="card-title">{{ entry.title }}</h2>
+          <p id="entry-{{ forloop.index0 }}-text">{{ entry.description }}</p>
+        </div>
+        <figure>
+          <a href="{{ entry.url | url }}" target="_blank">
+            <img src="{{ entry.url }}" aria-describedby="entry-{{ forloop.index0 }}-text"/>
+          </a>
+        </figure>
+      </div>
+      {% endfor %}
+    </div>
+  </main>
+</div>
