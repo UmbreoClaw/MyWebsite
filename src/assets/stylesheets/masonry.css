@@ -1,0 +1,23 @@
+/* Masonry/Pinterest-style columns */
+/* This was generated with GitHub Copilot (AI) because I had no idea how to do it */
+.masonry {
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+.masonry-card {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  /* Prevent card break inside columns */
+  break-inside: avoid;
+}

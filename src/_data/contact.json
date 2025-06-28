@@ -1,27 +1,27 @@
 {
     "name": "UmbreoClaw",
-    "pronoun": "they/them",
+    "pronouns": "they/them",
     "social": [
         {
             "displayName": "Email",
-            "link": "mailto:contact@umbreoclaw.net"
+            "url": "mailto:contact@umbreoclaw.net"
         },
         {
             "displayName": "Bluesky",
-            "link": "https://bsky.app/profile/umbreoclaw.net"
+            "url": "https://bsky.app/profile/umbreoclaw.net"
         },
         {
             "displayName": "Twitter",
-            "link": "https://x.com/UmbreoClaw",
+            "url": "https://x.com/UmbreoClaw",
             "hidden": "true"
         },
         {
             "displayName": "YouTube",
-            "link": "https://www.youtube.com/@UmbreoClaw"
+            "url": "https://www.youtube.com/@UmbreoClaw"
         },
         {
             "displayName": "GitHub",
-            "link": "https://github.com/UmbreoClaw/"
+            "url": "https://github.com/UmbreoClaw/"
         }
     ]
 }
