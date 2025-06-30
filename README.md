@@ -9,7 +9,7 @@
     * You can now visit the website at its default URL, http://localhost:8080/.
 
 ## Deployment
-This is normally handled by Cloudflare Pages, however you can also run `npm run build` for a processed build of the website.
+This is normally handled by Cloudflare Workers (configuration file in `wrangler.jsonc`), however you can also run `npm run build` for a processed build of the website.
 The output will be available in the `_site` folder.
 
 Also double check that all values in `src/_data/siteMetadata.json`, especially the `"url"` field are correct.
