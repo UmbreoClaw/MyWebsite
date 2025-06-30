@@ -6,5 +6,5 @@
     "not_found_handling": "404-page"
   },
   "preview_urls": true,
-  "workers_dev": true
+  "workers_dev": false
 }
