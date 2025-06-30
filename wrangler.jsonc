@@ -1,6 +1,6 @@
 {
-  "name": "umbreoclaw",
-  "compatibility_date": "2025-06-28",
+  "name": "website",
+  "compatibility_date": "2025-06-29",
   "assets": {
     "directory": "./_site/",
     "not_found_handling": "404-page"
