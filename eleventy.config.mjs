@@ -1,3 +1,4 @@
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import fs from 'fs';
 import path from 'path';
 import postcss from 'postcss';
@@ -6,6 +7,9 @@ import cssnano from "cssnano";
 import htmlmin from "html-minifier-terser";
 
 export default function(eleventyConfig) {
+    // Optimize images
+    eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+
     // Pass these files to compiled output
     eleventyConfig.addPassthroughCopy("./src/assets");
     // Copy favicon.ico to root directory for backward compatibility on some browsers
