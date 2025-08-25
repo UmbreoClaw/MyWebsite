@@ -22,7 +22,7 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@tailwindcss/postcss": "^4.1.12",
     "@tailwindcss/typography": "^0.5.16",
-    "cssnano": "^7.1.0",
+    "cssnano": "^7.1.1",
     "daisyui": "^5.0.50",
     "html-minifier-terser": "^7.2.0",
     "postcss": "^8.5.6",
