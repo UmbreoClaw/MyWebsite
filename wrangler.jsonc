@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "compatibility_date": "2025-06-29",
+  "compatibility_date": "2025-10-11",
   "assets": {
     "directory": "./_site/",
     "not_found_handling": "404-page"
