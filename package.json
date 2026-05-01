@@ -25,7 +25,7 @@
     "cssnano": "^7.1.7",
     "daisyui": "^5.5.19",
     "html-minifier-terser": "^7.2.0",
-    "postcss": "^8.5.10",
+    "postcss": "^8.5.13",
     "tailwindcss": "^4.2.2"
   },
   "engines": {
