@@ -23,7 +23,7 @@
     "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/typography": "^0.5.20",
     "cssnano": "^8.0.5",
-    "daisyui": "^5.7.16",
+    "daisyui": "^5.7.23",
     "html-minifier-terser": "^7.2.0",
     "postcss": "^8.5.26",
     "tailwindcss": "^4.3.3"
