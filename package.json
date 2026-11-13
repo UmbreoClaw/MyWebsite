@@ -26,7 +26,7 @@
     "daisyui": "^5.7.50",
     "html-minifier-terser": "^7.2.0",
     "postcss": "^8.5.32",
-    "tailwindcss": "^4.3.4"
+    "tailwindcss": "^4.3.5"
   },
   "engines": {
     "node": ">=22"
